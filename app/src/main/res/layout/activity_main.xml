@@ -30,7 +30,6 @@
         android:textAlignment="center"
         android:textSize="30dp"
         android:textColor="@color/white"
-        android:hint="mm"
        />
 
     <Button

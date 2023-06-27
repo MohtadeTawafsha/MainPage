@@ -30,7 +30,9 @@
         android:textAlignment="center"
         android:textSize="30dp"
         android:textColor="@color/white"
-        />
+        android:hint="mm"
+       />
+
     <Button
         android:id="@+id/btServices"
         android:layout_width="wrap_content"
@@ -44,19 +46,6 @@
         android:text="Services"
         android:textAlignment="center"
         android:textSize="30dp"
-        android:textColor="@color/white"
-        />
-    <Button
-        android:id="@+id/btNewsAndEvents"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/button_cust_mainpage"
-        android:layout_gravity="center"
-        android:layout_marginTop="12dp"
-        android:textStyle="italic"
-        android:text="News &amp; Events"
-        android:textAlignment="center"
-        android:textSize="28dp"
         android:textColor="@color/white"
         />
     <Button
@@ -107,20 +96,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.512"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/btGoogle"
             android:layout_width="65dp"
             android:layout_height="55dp"
             android:background="@drawable/googlee"
-            tools:ignore="MissingConstraints"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="56dp"
-            tools:layout_editor_absoluteY="23dp" />
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/btFace"
@@ -133,7 +120,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.571"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -163,6 +150,4 @@
             app:menu="@menu/bottom_nav_menu"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 </LinearLayout>
